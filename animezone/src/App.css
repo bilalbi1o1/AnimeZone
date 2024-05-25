@@ -1,0 +1,52 @@
+.Buttons{
+  display: flex;
+  justify-content: center;
+}
+.Button{
+  font-family: "Poppins", Arial;
+  margin-bottom: 1%;
+  margin-top: 5.5%;
+  border-style: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  background-color: transparent;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.webName{
+  padding-top: 2%;
+  padding-left: 5%;
+  color: #fff;
+}
+
+.mainImage{
+  opacity: 0.7;
+  border-radius: 10%;
+  width: 50%;  
+  mask: linear-gradient(to left, black 0%, transparent 100%); /* Mask to control opacity split */
+}
+
+.mainContainer{
+  border-radius: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 2%;
+  border-radius: 5%;
+  background-color:  rgb(48, 44, 71);
+}
+
+.content{
+  padding-top: 3.7%;
+  padding-left: 5%;
+}
+
+.searchBox{
+  border: none;
+  margin-left: 20px;
+  width: 400px;
+  height: 35px;
+  text-align: left;
+ border-radius: 5%; 
+}
