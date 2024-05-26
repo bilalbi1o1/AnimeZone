@@ -1,0 +1,38 @@
+.webName{
+    padding-top: 10%;
+    padding-left: 9%;
+    color: #fff;
+    font-size: 2.5em;
+  }
+  
+  .mainImage{
+    opacity: 0.7;
+    border-radius: 65px;
+    width: 60%;  
+    mask: linear-gradient(to left, black 0%, transparent 100%); /* Mask to control opacity split */
+  }
+  
+  .mainContainer {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 1%;
+    border-radius: 65px;
+    background-color: rgb(48, 44, 71);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+  
+  .content{
+    padding-top: 3.7%;
+    padding-left: 5%;
+  }
+  
+  .searchBox{
+    width: 165%;
+    border-radius: 13px;
+    margin-left: 20px;
+    height: 10%;
+    font-size: 1.5em;
+  }
