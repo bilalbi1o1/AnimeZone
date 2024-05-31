@@ -101,3 +101,79 @@
     padding: 0px 5px;
     font-weight: 100;
   }
+
+  .shareBar {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+  }
+
+  .instaShare {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: radial-gradient(circle at 30% 30%, #f58529, #dd2a7b, #8134af, #515bd4);
+    height: 30px;
+    width: 90px;
+    padding-left: 15px;
+    border-radius: 10px;
+  }
+
+  .xShare {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: black;
+    height: 30px;
+    width: 90px;
+    padding-left: 15px;
+    border-radius: 10px;
+  }
+
+  .fbShare {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #1877F2;
+    height: 30px;
+    width: 90px;
+    padding-left: 15px;
+    border-radius: 10px;
+  }
+
+  .shareLabel1 {
+    color: plum;
+    margin-left: 30px;
+    margin-bottom: 4px;
+  }
+
+  .shareLabel2 {
+    color: #fff;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+  .iconsLabel{
+    color: #fff;
+    font-weight: 100;
+  }
+
+  .icons {
+      width: 20px;
+      height: 20px;
+  }
+
+.sharingIcon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.rightReserved {
+  color: #fff;
+  font-weight: 100;
+  opacity: 80%;
+  margin-left: 20px;
+}
