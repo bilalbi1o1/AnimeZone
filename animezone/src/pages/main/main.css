@@ -13,7 +13,8 @@
   }
   
   .mainContainer {
-    width: 98%;
+    width: 88%;
+    height: 520px;
     display: flex;
     justify-content: space-between;
     margin: 0% 1%;
@@ -25,14 +26,78 @@
 
   
   .content{
-    padding-top: 3.7%;
+    padding-top: 1.7%;
     padding-left: 5%;
   }
   
   .searchBox{
-    width: 165%;
+    width: 415px;
+    border: none;
     border-radius: 13px;
     margin-left: 20px;
-    height: 10%;
+    height: 45px;
     font-size: 1.5em;
+  }
+
+  .Button:hover{
+    color: pink;
+  }
+
+  .topSearch {
+    color: #fff;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    padding-right: 1px;
+  }
+
+  .searchComponents {
+    display: flex;
+    align-items: center;
+    gap:10px;
+  }
+
+  .searchIcon {
+    width: 20px;
+    height: 20px;
+    background-color: plum;
+    padding: 15px 15px;
+    gap: 10px;
+    border-radius: 10px;
+    margin: 2px;
+  }
+
+  .watchAnimeButton {
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  .topSearchSection {
+    display: flex;
+    align-items: center ;
+    gap: 10px;
+  }
+
+  .searchData {
+    color: #fff;
+    font-weight: 100;
+  }
+
+  .arrowIcon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .watchAnimeContent {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    background-color: plum;
+    margin-left: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 0px 5px;
+    font-weight: 100;
   }
